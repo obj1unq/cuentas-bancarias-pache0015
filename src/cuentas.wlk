@@ -12,11 +12,7 @@ object cuentaDeJulian {
 	var saldo = 0
 	method saldo() = saldo
 	
-	method depositar(monto) {
-		// TODO
-	} 
+	method depositar(monto) {saldo += monto	} 
 
-	method extraer(monto) {
-		// TODO
-	}
+	method extraer(monto) {saldo -= monto	}
 }
